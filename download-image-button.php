@@ -3,7 +3,7 @@
 Plugin Name: Download Image Button
 Plugin URI: https://github.com/srgdd0/Download-Image-Button
 Description: This plugin enhances the WordPress media library modal by adding a "Download Image" button. This allows users to easily download any image directly from the media library interface.
-Version: 1.0
+Version: 1.1
 Author: Serhii Didenko (webrpc)
 Author URI: https://web.rpc.in.ua/
 License: GPLv3

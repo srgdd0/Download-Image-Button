@@ -2,7 +2,6 @@ jQuery(document).ready(function($) {
     console.log("Waiting for details block...");
 
     function addButton() {
-        // Если кнопка уже существует, не добавляем её снова
         if ($(".download-attachment").length) return;
 
         var downloadButton = $('<button>', {
@@ -15,7 +14,6 @@ jQuery(document).ready(function($) {
 
         if (detailsBlock.length) {
             detailsBlock.append(downloadButton);
-            console.log("Download button added!");
         }
     }
 
