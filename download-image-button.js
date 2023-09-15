@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
         var downloadButton = $('<button>', {
             type: "button",
             class: "button button-small download-attachment",
-            text: "Скачать изображение"
+            text: "download attachment"
         }).click(downloadImage);
 
         var detailsBlock = $(".details");
