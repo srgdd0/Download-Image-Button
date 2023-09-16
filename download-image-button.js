@@ -13,12 +13,12 @@ jQuery(document).ready(function($) {
             text: "download attachment"
         }).click(downloadImage);
 
-        // Найдем блок с классом "copy-to-clipboard-container" внутри элемента с классом "setting"
-        var container = $(".setting[data-setting='url'] .copy-to-clipboard-container");
+        // Найдем блок с data-setting="alt"
+        var altBlock = $(".setting[data-setting='alt']");
 
-        // Если блок существует, добавим кнопку в него
-        if (container.length) {
-            container.append(downloadButton);
+        // Если блок существует, добавим кнопку после него
+        if (altBlock.length) {
+            altBlock.after(downloadButton);
         }
     }
 
